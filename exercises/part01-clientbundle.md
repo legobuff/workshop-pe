@@ -44,7 +44,8 @@ drwx------. 3 workshop workshop 4096 Feb 27 09:24 ..
 ```
 3. Apply the Client Bundle fitting to your operating system.
 
-#Linux/Mac
+**Linux/Mac**
+
 `eval "$(<env.sh)"`
 
 ```
@@ -54,7 +55,8 @@ User "ucp_dci-1tgb167v-ucp-6d2671e59c369811.elb.eu-central-1.amazonaws.com:6443_
 Context "ucp_dci-1tgb167v-ucp-6d2671e59c369811.elb.eu-central-1.amazonaws.com:6443_admin" created.
 ```
 
-#Windows
+**Windows** 
+
 `.\env.ps1` for Powershell
 `env.cmd` for CMD
 
