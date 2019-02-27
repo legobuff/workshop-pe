@@ -81,6 +81,52 @@ The result should reflect this:
 - sensitive: gertrude
 
 
+## Part 4 - Create Collections
+
+We want our cluster to be split into three parts: `dev`, `staging`, `production`. Therefor we need to create **collections** to create a virtual possability to seperate our cluster.
+
+1. Select your `Shared Resources` and `Collections`
+
+2. Select `View Children` on the default collection `Swarm`
+
+3. Select `Create Collection` and provide the name `dev`
+
+4. Repeat step 3. for collection `staging` and `production`
+
+The result should reflect this:
+![rbac07](../images/rbac07.png)/
+
+5. Select `View Children` on the `dev`collection.
+
+6. Select `Create Collection` and provide the name `alpha`
+
+7. Repeat step 5. - 6. to create the following collections:
+
+```
+dev/alpha
+dev/beta
+staging/alpha
+staging/beta
+production/alpha
+production/beta
+```
+The result for each parent collection should reflect this:
+![rbac08](../images/rbac08.png)/
+
+
+## Part 5 - Role assignment
+
+As we have a simple RBAC structure now, we need to grant the Teams their respective management rights.
+
+1. Select your `Access Control` and `Grants`
+
+2. Select `Swarm` at the top of the Grants page
+
+3. Select `Create Grant` and provide the following details:
+- Organizations -> Organizations: `developers` -> Team(Optional) -> `alpha` abd click `NEXT`
+- Resource Set ->
+
+
 ...
 
 ## Conclusion
