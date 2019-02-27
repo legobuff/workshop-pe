@@ -111,6 +111,7 @@ production/alpha
 production/beta
 ```
 The result for each parent collection should reflect this:
+
 ![rbac08](../images/rbac08.png)/
 
 
@@ -124,7 +125,20 @@ As we have a simple RBAC structure now, we need to grant the Teams their respect
 
 3. Select `Create Grant` and provide the following details:
 - Organizations -> Organizations: `developers` -> Team(Optional) -> `alpha` abd click `NEXT`
-- Resource Set ->
+- Resource Set -> `View Children` on Swarm -> `View Children` on dev -> select collection `alpha`
+- Role -> Select `Restricted Control` and `Create`
+
+4. Repeat step 3. to apply the following table to your Teams and Collections:
+
+![rbac09](../images/rbac09.png)/
+
+5. Delete the grant `Org - docker-datacenter // Role: Scheduler`. This rule will cause anyone within the current setup to be able to schedule within the cluster. As we want restricted access to our cluster, this rule must be deleted.
+
+The result for each parent collection should reflect this:
+
+![rbac10](../images/rbac10.png)/
+
+
 
 
 ...
