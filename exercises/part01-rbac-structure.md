@@ -5,17 +5,19 @@ By the end of this exercise, you should be able to:
  - Create a simple RBAC structure within UCP
  - Understand the relations between Organisations, Teams and Users
 
-## Part 1
+## Part 1 - Organizations
 
-The Client Bundle can be downloaded by logging into your UCP user account.
+In each part we will create one piece of the RBAC structure. We will start with **Organizations**
 
 1. Log into your UCP installation with an admin user, e.g. `admin`
 
 ![rbac01](../images/rbac01.png)/
 
+
 2. Select your `Access Control` and `Orgs & Teams`
 
 ![rbac02](../images/rbac02.png)/
+
 
 3. Select the `Create`Button and create the following Teams:
 
@@ -26,24 +28,58 @@ The Client Bundle can be downloaded by logging into your UCP user account.
 The result should reflect this:
 ![rbac03](../images/rbac03.png)/
 
-1.  Give imperitive instructions of what to do.
 
-    ```bash
-    here's a code block
-    notice the indenting by 4 spaces
-    ```
 
-2.  Use as many steps as you like; make sure to give regular opportunities to confirm students are on the right track, with expected output, sanity checks etc.
+## Part 2 - Teams
 
-    ![myfig](../images/fig.png)/
+In this part we will create the **Teams**
 
-    Notice the figure formatting:
-    - image lives in the ../images folder relative to this file
-    - no, the trailing `/` is not a typo - it's there to force latex to behave when we spin this in to a PDF for folks who like PDFs.
+1. Still in `Orgs & Teams` select the Organization `developers`
 
-## Part 2
+2. Click the **+** in the upper right corner to add a new team and call it `alpha`. Click `Create`to complete the first team.
 
-## Part 3
+3. Repeat the steps with a second team called `beta`
+
+The result should reflect this:
+![rbac04](../images/rbac04.png)/
+
+4. Repeat step 2. and 3. with the Organization `devops`. The teams should be named `members` and `sensitive`
+
+The result should reflect this:
+![rbac05](../images/rbac05.png)/
+
+
+
+## Part 3 - Users
+
+In this part we will create the **Users** and assign them to their **Teams**
+
+1. Select your `Access Control` and `Users`
+
+2. Select the `Create`Button and create the following Users:
+
+- alice
+- billy
+- chuck
+- dave
+- earl
+- frank
+- gertrude
+- leonard
+
+The result should reflect this:
+![rbac06](../images/rbac06.png)/
+
+3. Switch to `Orgs & Teams` and select the Organization `developers`. Assign the users to the following Teams by clicking the upper right **+**:
+
+- alpha: alice, billy, leonard
+- beta: chuck, dave, leonard
+
+4. Switch to `Orgs & Teams` and select the Organization `devops`. Assign the users to the following Teams by clicking the upper right **+**:
+
+- members: earl, frank, gertrude
+- sensitive: gertrude
+
 
 ...
 
