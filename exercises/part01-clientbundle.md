@@ -58,6 +58,7 @@ Context "ucp_dci-1tgb167v-ucp-6d2671e59c369811.elb.eu-central-1.amazonaws.com:64
 **Windows** 
 
 `.\env.ps1` for Powershell
+
 `env.cmd` for CMD
 
 ```
