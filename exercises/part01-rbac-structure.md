@@ -139,10 +139,66 @@ The result for each parent collection should reflect this:
 ![rbac10](../images/rbac10.png)/
 
 
+## Part 6 - Testing the RBAC model
+
+We will be using the following Stack to test our deployment:
+
+```
+version: '3.1'
+
+services:
+  demodocker:
+    image: nginx:alpine
+    environment:
+      - DOMAIN=test.ucp.local
+    ports:
+      - 8880:80
+      - 8443:443
+    networks:
+      - frontend
+    volumes:
+      - static_content:/var/www/html:ro
+    deploy:
+      mode: replicated
+      replicas: 1
+      resources:
+        limits:
+          memory: 1G
+      labels:
+        - com.docker.ucp.access.label=/dev/alpha
+
+networks:
+  frontend:
+    labels:
+      - com.docker.ucp.access.label=/dev/alpha
+
+volumes:
+  static_content:
+    labels:
+      - com.docker.ucp.access.label=/dev/alpha
+```
 
 
-...
+1. Log out from UCP and log in with the user `alice`
+
+2. Select `Shared Resources` and select `Stacks`
+
+3. Select `Create Stack` in the upper right corner.
+
+4. Provide a Application name, e.g. `dev-alpha-nginx`, select Orchestrator Mode `SWARM`, Application File Mode `COMPOSE FILE` and click `NEXT`
+
+5. Copy and paste the stack file example into the docker-compose.yml Field or upload the .yml file and click `NEXT`. The stack **should be deployable without any issues**.
+
+6. Repeat step 4. and 5. - Before you apply the COMPOSE FILE change the labels to match `/dev/beta` - You will receive an error: `access denied: no access to Network Create, on collection b1d4b10a-c949-410b-b084-6cf61ec1576d`
+
+
+![rbac11](../images/rbac11.png)/
+
+
+
 
 ## Conclusion
 
-In addition to summarizing the exercise, this is your opportunity to provide some broader context for what just happened; what are some topics for further study? Where does this fit into the bigger picture of the story we're telling in this workshop?
+UCP allows us with only a few steps to provide a RBAC module to apply to your environment. RBAC structures depend on initial planing. It is mandetory to know the "Who is Who" of the users of UCP.
+
+Further reading: https://success.docker.com/article/rbac-example-overview
