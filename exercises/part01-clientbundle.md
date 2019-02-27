@@ -46,7 +46,7 @@ drwx------. 3 workshop workshop 4096 Feb 27 09:24 ..
 
 **Linux/Mac**
 
-`eval "$(<env.sh)"`
+Linux BASH: `eval "$(<env.sh)"`
 
 ```
 [workshop@ee-client01 ucp-aws-admin]$ eval "$(<env.sh)"
@@ -57,9 +57,9 @@ Context "ucp_dci-1tgb167v-ucp-6d2671e59c369811.elb.eu-central-1.amazonaws.com:64
 
 **Windows** 
 
-`.\env.ps1` for Powershell
+Powershell: `.\env.ps1` 
 
-`env.cmd` for CMD
+CMD: `env.cmd` 
 
 ```
 PS C:\Users\workshop> .\env.ps1
