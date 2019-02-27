@@ -199,6 +199,24 @@ Click `Create` and `Done`
 
 5. Again your Wordpress should be available as in the previouse step
 
+## Part 8 - Scale your WORDPRESS container
+
+Regardless if you followed the manual, stack or CLI procedure, you might want to change your services. This can be done during runtime within the Web UI.
+
+1. Select `Swarm` and select `Service`. 
+
+2. Select the WORDPRESS Service you deployed and select the Cockwheel in the upper right corner.
+
+![swarm-service06](../images/swarm-service06.png)/
+
+3. Within the `Update Service` Options, select `Scheduling`
+
+4. Update `Scale` to 2 and click `Save`
+
+5. Your service will scale to the 2 in the service overview
+
+![swarm-service07](../images/swarm-service07.png)/
+
 ## Conclusion
 
 UCP allows you the comfort of creating any kind of SWARM orchestration object by simply logging into the Web UI. If prefered you can use the Client Bundle to manage your cluster as well, without restrictions.
