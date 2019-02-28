@@ -19,7 +19,7 @@ https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-r
 
 Our user Alice from Team Alpha would like to make sure her image is signed. Additionally the DevOps Team has announced that only signed images are supposed to be scheduleable within UCP.
 
-We will created a new Repository under the user Alice and sign the image. DevOps will go ahead and test with Alice container the DCT features in UCP.
+We will create a new Repository under the user Alice and sign the image. DevOps will go ahead and test with Alice container the DCT features in UCP.
 
 ## Part 2 - Create the repositories
 
