@@ -11,31 +11,31 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 **4.1 General**
 
-Use the Client Bundle to administrate your cluster
-Update UCP and DTR to use self provided SSL certificates
+- Use the Client Bundle to administrate your cluster
+- Update UCP and DTR to use self provided SSL certificates
 
 **4.1 UCP**
 
-Create a simple RBAC structure
-Connect UCP to an external LDAP server
-Deploy a multi-service app with UCP (Swarm)
-Deploy a multi-service app with UCP (Kubernetes)
-Container Management with UCP
-Interlock/Layer-7 configuration
-Create and Analyse an UCP Support Dump
+- Create a simple RBAC structure
+- Connect UCP to an external LDAP server
+- Deploy a multi-service app with UCP (Swarm)
+- Deploy a multi-service app with UCP (Kubernetes)
+- Container Management with UCP
+- Interlock/Layer-7 configuration
+- Create and Analyse an UCP Support Dump
 
 
 **4.2 DTR**
 
-Configure to use Single Sign-On in DTR
-Enable and test security scanning
-Configure DTR to use NFS
-Create a repository with RBAC model
-Configure DTR Repositories with Webhooks
+- Configure to use Single Sign-On in DTR
+- Enable and test security scanning
+- Configure DTR to use NFS
+- Create a repository with RBAC model
+- Configure DTR Repositories with Webhooks
 
 **4.3 DOCKER CONTENT TRUST**
 
-Configuration and Use case
+- Configuration and Use case
 
 
 
