@@ -5,7 +5,7 @@ By the end of this exercise, you should be able to:
  - How to configure Webhooks for Repositories in DTR
   
 
-## Part 1 - Change the SSO settings
+## Part 1 - Create a Webhook
 
 Make sure you have run through the following exercise first:
 
