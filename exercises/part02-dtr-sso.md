@@ -1,38 +1,40 @@
-# Create and Analyse an UCP Support Dump
+# Configure to use Single Sign-On in DTR
 
 By the end of this exercise, you should be able to:
 
- - Create an UCP Support Dump
- - Know the content of a support dump
+ - How to configure SSO in DTR
+ - How it affects your DTR login
  
 
-## Part 1 - Create the support dump
+## Part 1 - Change the SSO settings
 
-You might need to provide Docker Support further information in case of errors. You can do so by downloading an UCP support dump.
+The first time you browse to your `DTR url`, you might notice, that you will be redirected to the `UCP url`. This is the by default set up SSO procedure of DTR. This can be changed however.
 
-1. Log into your UCP installation with an admin user, e.g. `admin`
+1. Browse to you `DTR url` and log in by using an admin user, e.g. `admin`. You will currently see the UCP login page
 
 ![rbac01](../images/rbac01.png)/
 
-2. Click on your admin username and select `Support Dump`. A package will be created and the download will start immediately.
+2. In DTR, click on `System`and scroll down to the option point `Single Sign-On`. 
 
+![dtr-sso01](../images/dtr-sso01.png)/
 
-## Part 2 - Support Dump content
+3. Switch the Option `automatically redirect users to ucp for login` off and log your user out. To log out select your `username` on the right and selecet `Logout`
 
-1. Open the newly downloaded ZIP file.
+## Part 2 - Notice the difference
 
-![support-dump01](../images/support-dump01.png)/
+1. Wait for the Logout to complete, now you should see a DTR login screen.
 
-2. You will see different logs and configs. Most of the content can be described as `docker inspect` or `kubectl describe` content in json format.
+![dtr-sso02](../images/dtr-sso02.png)/
 
+As you may notice, the Single Sign-On Feature is still available. But now you can choose between directly `Sign In` or `Use Single Sign-On`
 
 
 ## Conclusion
 
-It is very easy to receive a support dump to analyse your cluster and provide it to the Docker Support.
+The SSO Feature by DTR is very convinient for login procedures. However there might be situations, where you want to change this default behavior, e.g. when non-admins are not supposed to access or even see UCP within their network.
 
 Further reading: 
 
-- https://docs.docker.com/ee/get-support/
+- https://docs.docker.com/ee/dtr/admin/configure/enable-single-sign-on/
 
 
