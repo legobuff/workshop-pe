@@ -11,6 +11,7 @@ By the end of this exercise, you should be able to:
 ## Part 1 - Pre-Requisits
 
 You should have ran through the following exercises:
+
 https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
 https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md 
 https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-repository-rbac.md
