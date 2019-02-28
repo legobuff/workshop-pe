@@ -71,7 +71,7 @@ We want only scanned images to be provided by the DevOps team, therefor we will 
 
 ## Part 3 Make use of your repositories
 
-###DevOps
+### DevOps
 1. We will provide the nginx:latest image to our nginx-prescan repository by running the following commands:
 
 ```
@@ -90,7 +90,7 @@ docker image push YOURDTRURL/devops/nginx-prescan:latest
 
 We now have an approved nginx image we can use to work with for the other teams.
 
-###Alice
+### Alice
 
 1. As Alice, we will now pull the approved image and upload it to our private repository:
 
