@@ -23,11 +23,11 @@ Security Scans for current exploits is a very important feature within DTR. You 
 
 ## Part 2 - Configure a Repository to use security scanning on push
 
-1. Wait for the Logout to complete, now you should see a DTR login screen.
+1. After the pattern download has been succsessful, switch to `Repositories`.
 
-![dtr-sso02](../images/dtr-sso02.png)/
+2. 
 
-As you may notice, the Single Sign-On Feature is still available. But now you can choose between directly `Sign In` or `Use Single Sign-On`
+
 
 
 ## Conclusion

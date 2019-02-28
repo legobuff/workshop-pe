@@ -14,7 +14,7 @@ UCP as well as DTR both use SSL certificates to communicate with each other and 
 
 1. Log into UCP as `administrative user` and navigate to `User Menu` and `Admin Settings`. Here you navigate to `Certificates`.
 
-![sslexchange01](../images/sslexchange01.png)/
+![ssl-exchange01](../images/ssl-exchange01.png)/
 
 2. Upload your certificates. You will at least need the host certificate, private key and CA certificate. 
 
@@ -23,6 +23,8 @@ UCP as well as DTR both use SSL certificates to communicate with each other and 
 ### DTR
 
 1. Log into DTR as `administrative user` and navigate to `System`. Scroll down to `Domain & Proxies` and select the `Show TLS settings` link.
+
+![ssl-exchange02](../images/ssl-exchange02.png)/
 
 2. Provide your `TLS private key`, your `TLS certificate chanin` and `TLS root CA` and click save.
 
