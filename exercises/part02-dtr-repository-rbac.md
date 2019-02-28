@@ -10,7 +10,11 @@ By the end of this exercise, you should be able to:
 
 ## Part 1 - Pre-Requisits
 
-Since we need Organizations, Teams and Users, it is highly recommended you follow the exercise https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md first. By finishing this exercise you will have a complete RBAC structure in place. You should also finish the exercise https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-security-scanning.md for DTR Security Scanning to be enabled. Also make sure your SSL certificates are valid to be able to use Docker pull/push. Follow this exercise for further instructions https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
+Since we need Organizations, Teams and Users, it is highly recommended you follow the exercise https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md first. 
+
+By finishing this exercise you will have a complete RBAC structure in place. You should also finish the exercise https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-security-scanning.md for DTR Security Scanning to be enabled. 
+
+Also make sure your SSL certificates are valid to be able to use Docker pull/push. Follow this exercise for further instructions https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
 
 We will look at 3 users:
 - Alice / Organization: Developers / Team: Alpha
