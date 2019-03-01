@@ -3346,7 +3346,7 @@ k8s-23: digest: sha256:cc1718b506956c39f4556dd983fe79b91d724fc9286edf57e60dba490
 Finished: SUCCESS
 ```
 
-## Part 5 - Check your image build.
+## Part 5 - Check your image build
 
 You should be able to run now `docker container run --rm -p 8080:8080 YOURDTRURL/REPO/webapp:k8s-BUILDNUMBER`
 
