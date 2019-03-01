@@ -39,7 +39,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 #### Exercises - Part 3
 
 
-- Configuration and Use case
+- Deploying Jenkins within a Kubernetes Cluster
 
 
 
