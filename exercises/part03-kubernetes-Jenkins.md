@@ -3346,9 +3346,18 @@ k8s-23: digest: sha256:cc1718b506956c39f4556dd983fe79b91d724fc9286edf57e60dba490
 Finished: SUCCESS
 ```
 
+## Part 5 - Check your image build.
+
+You should be able to run now `docker container run --rm -p 8080:8080 YOURDTRURL/REPO/webapp:k8s-BUILDNUMBER`
+
+When browsing to your docker node URL `http://dockernodeurl:8080/webapp` you should be greated by welcome message:
+
+![part03-k8sjenkins08](../images/part03-k8sjenkins08.png)/
 
 ## Conclusion
 
-Kubernetes and Jenkins provide a powerful basis for a high scalable CI/CD platform. There are many different ways to realize a CI/CD Kubernetes based setup. The current setup is ment only for training purposes.
+Kubernetes and Jenkins provide a powerful basis for a high scalable CI/CD platform. There are many different ways to realize a CI/CD Kubernetes based setup. In our example, Jenkins uses 2 different containers to build a maven based tomcat image. The first container will take care of the maven build, while the second container will take care of any Docker tasks. 
+
+The current setup is ment only for training purposes.
 
 
