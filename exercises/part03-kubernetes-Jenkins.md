@@ -187,7 +187,7 @@ Next we will configure the Jenkins Kubernetes Plugin, which will integrate in ou
 - Kubernetes Namespace: jenkins-k8s
 - Jenkins URL: http://JENKINS-PODIP:8080 **NOTE:**To receive the Jenkins URL, you will need the kubernetes provided IP. You can find the IP by running: `kubectl -n jenkins-k8s describe pod JENKINSPODNAME* 
 
-[part03-k8sjenkins03](../images/part03-k8sjenkins03.png)/
+![part03-k8sjenkins03](../images/part03-k8sjenkins03.png)/
 
 You should be able to connect to you Cluster by pressing `Test Connection`
 
@@ -198,7 +198,7 @@ You should be able to connect to you Cluster by pressing `Test Connection`
 - Labels: jenkins-slave
 - Usage Use this node as much as possible
 
-[part03-k8sjenkins04](../images/part03-k8sjenkins04.png)/
+![part03-k8sjenkins04](../images/part03-k8sjenkins04.png)/
 
 Click `Add Container` and provide the following information:
 
@@ -206,7 +206,7 @@ Click `Add Container` and provide the following information:
 - Docker image: jenkinsci/jnlp-slave:3.26-1
 - *Leave the rest at their default value* 
 
-[part03-k8sjenkins05](../images/part03-k8sjenkins05.png)/
+![part03-k8sjenkins05](../images/part03-k8sjenkins05.png)/
 
 Click `Add Container` again and provide the following information:
 
@@ -216,7 +216,7 @@ Click `Add Container` again and provide the following information:
 - Click `Add Volume` and select `Host Path Volume`
  - Add */var/run/docker.sock* for `Host Path` and `Mount Path`
 
-[part03-k8sjenkins06](../images/part03-k8sjenkins06.png)/
+![part03-k8sjenkins06](../images/part03-k8sjenkins06.png)/
 
 Click `Save` to save the changes.
 
@@ -235,7 +235,7 @@ You will need to make changes to the following files:
 
 3. Select `Advanced Project Options`, select `Pipeline script from SCM`, select `Git` for SCM and provide your Repository URL. Click `Save`.
 
-[part03-k8sjenkins07](../images/part03-k8sjenkins07.png)/
+![part03-k8sjenkins07](../images/part03-k8sjenkins07.png)/
 
 4. In the Pipeline Item press `Build now`
 
