@@ -8,7 +8,7 @@ By the end of this exercise, you should be able to:
 
 ## Part 1 - Exchange SSL certificates
 
-UCP as well as DTR both use SSL certificates to communicate with each other and allow external secured access. During a default installation UCP and DTR will provide self-signed certificates. For testing, those certificates can be used. In real-life scenarios you should make sure you exchange the certificates with tursted SSL certificates.
+UCP as well as DTR both use SSL certificates to communicate with each other and allow external secured access. During a default installation UCP and DTR will provide self-signed certificates. For testing, those certificates can be used. In real-life scenarios you should make sure you exchange the certificates with trusted SSL certificates.
 
 ### UCP
 
@@ -77,7 +77,7 @@ docker container run -it docker/dtr:$DTR_VERIONS reconfigure --dtr-ca "$(cat ca.
 
 ## Conclusion
 
-Proper SSL Certificate installations and client side SSL hygine are **mandetory** for DEE to function properly. Please make sure you either provide proper certificates or inhouse CA provisioned certificates.
+Proper SSL Certificate installations and client side SSL hygiene are **mandatory** for DEE to function properly. Please make sure you either provide proper certificates or in house CA provisioned certificates.
 
 Further Reading:
 https://docs.docker.com/reference/ucp/3.1/cli/dump-certs/

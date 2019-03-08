@@ -8,7 +8,7 @@ By the end of this exercise, you should be able to:
 
 ## Part 1 - Login
 
-Our multi-service app will use a WORDPRESS Frontend and MYSQL Database as backend. We will start by providing the MYSQL database
+Our multi-service app will use a WORDPRESS frontend and MYSQL Database as backend. We will start by providing the MYSQL database
 
 1. Log into your UCP installation with an admin user, e.g. `admin`
 
@@ -217,7 +217,7 @@ kubectl create -f k8s-deployment.yaml
 
 ## Conclusion
 
-UCP allows you the comfort of creating any kind of KUBERNETES orchestration object by simply logging into the Web UI. If prefered you can use the Client Bundle in combintation with kubectl to manage your cluster as well, without restrictions.
+UCP allows you the comfort of creating any kind of KUBERNETES orchestration object by simply logging into the Web UI. If preferred you can use the Client Bundle in combination with kubectl to manage your cluster as well, without restrictions.
 
 Further reading: 
 

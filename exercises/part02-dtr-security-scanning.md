@@ -19,15 +19,15 @@ Security Scans for current exploits is a very important feature within DTR. You 
 
 ![dtr-security01](../images/dtr-security01.png)/
 
-3. Switch the Option `Enable Scanning` on and leave the Installation Method set to `Online`. Click the new Button `Enable Online Syncing` to enable the feautre. Please be aware that the pattern download and installation can take up to a couple of minutes.
+3. Switch the Option `Enable Scanning` on and leave the Installation Method set to `On-line`. Click the new Button `Enable On-line Syncing` to enable the feature. Please be aware that the pattern download and installation can take up to a couple of minutes.
 
 ## Part 2 - Configure a Repository to use security scanning on push
 
-1. After the pattern download has been succsessful, switch to `Repositories`.
+1. After the pattern download has been successful, switch to `Repositories`.
 
 2. Create a new Repository by clicking `New repository`
 
-3. Provide a repository name and unhide the advanced settings. Select `Scan on push` and click `Create`.
+3. Provide a repository name and show the advanced settings. Select `Scan on push` and click `Create`.
 
 ![dtr-security02](../images/dtr-security02.png)/
 
@@ -54,7 +54,7 @@ docker image push YOURDTRURL/admin/nginx:1.14.2-alpine
 docker image push YOURDTRURL/admin/nginx:latest
 ```
 
-3. When done correctly, you should be able to see your new tags within the Repository `Tags` tab. Please note the `Vulnerabilites` are currently on *Pending* The security scan will take some time.
+3. When done correctly, you should be able to see your new tags within the Repository `Tags` tab. Please note the `Vulnerabilities` are currently on *Pending* The security scan will take some time.
 
 ![dtr-security03](../images/dtr-security03.png)/
 
@@ -62,7 +62,7 @@ docker image push YOURDTRURL/admin/nginx:latest
 
 ![dtr-security04](../images/dtr-security04.png)/
 
-5. Click on `View Details` next to the Vulrnerabilities results. You will be able to check in which `Layers` or `Components` your vulnerabilites lie. 
+5. Click on `View Details` next to the Vulnerabilities results. You will be able to check in which `Layers` or `Components` your vulnerabilities lie. 
 
 
 ## Conclusion

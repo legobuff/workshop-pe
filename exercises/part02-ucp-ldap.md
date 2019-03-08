@@ -14,7 +14,7 @@ In each part we will create one piece of the RBAC structure. We will start with 
 ![rbac01](../images/rbac01.png)/
 
 
-2. Open the Users Menu by clicking your admin username and select `Admin Settings`
+2. Open the Users Menu by clicking your admin user name and select `Admin Settings`
 
 ![ldap01](../images/ldap01.png)/
 
@@ -62,7 +62,7 @@ The following image will show a minimal `User Search Configurations`
 With the next step we will finalize our LDAP setup.
 ![rbac05](../images/rbac05.png)/
 
-You can provide a username and password which is within the configured LDAP User Search configuration. By clicking `Test`you will receive either an LDAP error or a simple `Test successful` message.
+You can provide a user name and password which is within the configured LDAP User Search configuration. By clicking `Test`you will receive either an LDAP error or a simple `Test successful` message.
 
 You should set up a sync interval in hours as well to make sure your LDAP credentials are up to date.
 
@@ -163,6 +163,6 @@ You can now use LDAP credentials to log into your UCP and DTR installation. Logg
 
 ## Conclusion
 
-With the LDAP connection you can mirror your existing user strucktures to UCP. This allows you to keep current structures and makes user management easier.
+With the LDAP connection you can mirror your existing user structures to UCP. This allows you to keep current structures and makes user management easier.
 
 Further reading: https://docs.docker.com/ee/ucp/admin/configure/external-auth/

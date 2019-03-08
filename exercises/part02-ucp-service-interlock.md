@@ -15,7 +15,7 @@ We will use a multilayer WORDPRESS app to be available through the interlock ser
 
 2. Make sure all services and deployments have been deleted
 
-3. Select your admin username and select `Admin Settings`
+3. Select your admin user name and select `Admin Settings`
 
 4. Navigate to Layer 7 Routing and set the following values:
  - Enable Layer 7 Routing: switched on
@@ -27,7 +27,7 @@ We will use a multilayer WORDPRESS app to be available through the interlock ser
 
 ## Part 2 - Deploy the service as STACK via UCP Web UI
 
-1. Make sure the previouse created services have been deleted.
+1. Make sure the previous created services have been deleted.
 
 2. Select `Shared Resources` and select `Stacks`. Click the `Create Stack` button on the upper right side.
 
@@ -89,7 +89,7 @@ Your HOSTS file should mirror something like this:
 3.122.151.145 wordpress.docker.com
 ```
 
-**NOTE:** When you use DCI, Loadbalancers at Azure/AWS might already point to Port 8000 so you can actually use the NORMAL HTTP 80 to look at your page.
+**NOTE:** When you use DCI, Load balancers at Azure/AWS might already point to Port 8000 so you can actually use the NORMAL HTTP 80 to look at your page.
 
 ![interlock02](../images/interlock02.png)/
 

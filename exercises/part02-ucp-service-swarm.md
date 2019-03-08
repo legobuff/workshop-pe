@@ -8,7 +8,7 @@ By the end of this exercise, you should be able to:
 
 ## Part 1 - Login
 
-Our multi-service app will use a WORDPRESS Frontend and MYSQL Database as backend. We will start by providing the MYSQL database
+Our multi-service app will use a WORDPRESS frontend and MYSQL Database as backend. We will start by providing the MYSQL database
 
 1. Log into your UCP installation with an admin user, e.g. `admin`
 
@@ -144,7 +144,7 @@ docker service create --name wordpress01 --publish mode=ingress,target=80,publis
 
 ## Part 7 - Deploy the service as STACK via UCP Web UI
 
-1. Make sure the previouse created services have been deleted.
+1. Make sure the previous created services have been deleted.
 
 2. Select `Shared Resources` and select `Stacks`. Click the `Create Stack` button on the upper right side.
 
@@ -197,7 +197,7 @@ volumes:
 
 Click `Create` and `Done`
 
-5. Again your Wordpress should be available as in the previouse step
+5. Again your Wordpress should be available as in the previous step
 
 ## Part 8 - Scale your WORDPRESS container
 
@@ -205,7 +205,7 @@ Regardless if you followed the manual, stack or CLI procedure, you might want to
 
 1. Select `Swarm` and select `Service`. 
 
-2. Select the WORDPRESS Service you deployed and select the Cockwheel in the upper right corner.
+2. Select the WORDPRESS Service you deployed and select the cock wheel in the upper right corner.
 
 ![swarm-service06](../images/swarm-service06.png)/
 
@@ -219,7 +219,7 @@ Regardless if you followed the manual, stack or CLI procedure, you might want to
 
 ## Conclusion
 
-UCP allows you the comfort of creating any kind of SWARM orchestration object by simply logging into the Web UI. If prefered you can use the Client Bundle to manage your cluster as well, without restrictions.
+UCP allows you the comfort of creating any kind of SWARM orchestration object by simply logging into the Web UI. If preferred you can use the Client Bundle to manage your cluster as well, without restrictions.
 
 Further reading: 
 

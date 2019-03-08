@@ -9,7 +9,7 @@ By the end of this exercise, you should be able to:
 
 ## Introduction
 
-This exercise is not build on best practices. There are many different ways to realise a Jenkins Deployment environemt. This following example is a working solution but lacks alot of security related configurations. Our setup will include not the latest versions of different images, does not provide secured or save authentication. It is a basic demo to show the integration with Jenkins in Kubernetes, based on an old Maven example.
+This exercise is not build on best practices. There are many different ways to realize a Jenkins Deployment environment. This following example is a working solution but lacks a lot of security related configurations. Our setup will include not the latest versions of different images, does not provide secured or save authentication. It is a basic demo to show the integration with Jenkins in Kubernetes, based on an old Maven example.
 
 Before you begin this exercise you should:
 - Be able to use GitHub and provide a GitHub account.
@@ -161,7 +161,7 @@ Make sure the Plugins `Pipeline`, `Kubernetes` and `GitHub` are installed correc
 
 5. Return to `Manage Jenkins` and select `Nodes`
 
-6. Click on the cockwheel next to the Master Node.
+6. Click on the cock wheel next to the Master Node.
 
 7. Switch `Usage` to `Only build jobs with label expressions matching this node`
 
@@ -3350,7 +3350,7 @@ Finished: SUCCESS
 
 You should be able to run now `docker container run --rm -p 8080:8080 YOURDTRURL/REPO/webapp:k8s-BUILDNUMBER`
 
-When browsing to your docker node URL `http://dockernodeurl:8080/webapp` you should be greated by welcome message:
+When browsing to your docker node URL `http://dockernodeurl:8080/webapp` you should be greeted by welcome message:
 
 ![part03-k8sjenkins08](../images/part03-k8sjenkins08.png)/
 
@@ -3358,6 +3358,6 @@ When browsing to your docker node URL `http://dockernodeurl:8080/webapp` you sho
 
 Kubernetes and Jenkins provide a powerful basis for a high scalable CI/CD platform. There are many different ways to realize a CI/CD Kubernetes based setup. In our example, Jenkins uses 2 different containers to build a maven based tomcat image. The first container will take care of the maven build, while the second container will take care of any Docker tasks. 
 
-The current setup is ment only for training purposes.
+The current setup is meant only for training purposes.
 
 

@@ -5,7 +5,7 @@ By the end of this exercise, you should be able to:
  - Reconfigure your DTR cluster to use NFS as shared storage
  
 
-## Part 1 - Check the pre-requisits
+## Part 1 - Check the prerequisites
 
 DTR can be configured to use NFS storage. Before you begin, you should make sure that all your DTR worker nodes are supplied with the necessary `nfs-utils`. The packages here depend on which OS you might use. You can make sure your node is optimized for NFS by running the following commands:
 
@@ -14,7 +14,7 @@ Check the NFS mounts of your destination server:
 showmount -e <nfsserver>
 ```
 
-Try to mount the destiantion NFS share:
+Try to mount the destination NFS share:
 ```
 mkdir /tmp/mydir && sudo mount -t nfs <nfs server>:<directory>
 ```
@@ -33,7 +33,7 @@ NFS configurations are taken care of by the `docker/dtr install` or `docker/dtr 
 
 ### Enable NFS during Installation
 
-Switch to a `Admin Client Bunlde` provided or a DTR host an issue the following command to install DTR with enabled NFS:
+Switch to a `Admin Client Bundle` provided or a DTR host an issue the following command to install DTR with enabled NFS:
 
 ```
 docker run -it --rm docker/dtr install  \
@@ -43,7 +43,7 @@ docker run -it --rm docker/dtr install  \
 
 ### Enable NFS during runtime
 
-Switch to a `Admin Client Bunlde` provided or a DTR host an issue the following command to reconfigure DTR to use NFS:
+Switch to a `Admin Client Bundle` provided or a DTR host an issue the following command to reconfigure DTR to use NFS:
 
 ```
 docker run -it --rm docker/dtr reconfigure  \
@@ -51,18 +51,18 @@ docker run -it --rm docker/dtr reconfigure  \
 ``` 
 ### Disable NFS during runtime
 
-Switch to a `Admin Client Bunlde` provided or a DTR host an issue the following command to reconfigure DTR to disable NFS:
+Switch to a `Admin Client Bundle` provided or a DTR host an issue the following command to reconfigure DTR to disable NFS:
 
 ```
 docker run -it --rm docker/dtr reconfigure  \
   --nfs-storage-url ""
 ``` 
 
-**Please note:** The reconfiguration with NFS will take time for configuration synchronisation. Please do not kill the reconfiguration process until it's done.
+**Please note:** The reconfiguration with NFS will take time for configuration synchronization. Please do not kill the reconfiguration process until it's done.
 
 ## Conclusion
 
-NFS is a prefered method for on-prem installations. It is easy to use and configure. However NFS is not always available, especially in Windows environments and should also not be used in Cloud environments. DTR provides many build in Cloud Storage connections.
+NFS is a preferred method for on-prem installations. It is easy to use and configure. However NFS is not always available, especially in Windows environments and should also not be used in Cloud environments. DTR provides many build in Cloud Storage connections.
 
 Further reading: 
 

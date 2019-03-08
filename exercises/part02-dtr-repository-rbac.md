@@ -2,13 +2,13 @@
 
 By the end of this exercise, you should be able to:
 
- - Create Repositories under organzations, teams and users
+ - Create Repositories under organizations, teams and users
  - Understand the usage of private repositories
  - Connect an RBAC model to repositories
  - Understand the promotion feature of DTR
  
 
-## Part 1 - Pre-Requisits
+## Part 1 - Prerequisites
 
 Since we need Organizations, Teams and Users, it is highly recommended you follow the exercise https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md first. 
 
@@ -24,7 +24,7 @@ We will look at 3 users:
 The roles will be:
 - DevOps will provide a public available nginx image, after they have been scanned with the DTR security feature. Scanned images should be promoted to a public repository automatically.
 - Alice will provide a private repository with her own nginx:tag
-- Team Beta will provide a public available repostiry with immutable image tags
+- Team Beta will provide a public available repository with immutable image tags
 
 ## Part 2 - Create the repositories
 
@@ -68,7 +68,7 @@ We want only scanned images to be provided by the DevOps team, therefor we will 
 
 2. Click `Promotions`and create a new policy by pressing `New promotion policy`
 
-3. Select `Critical Vulnerabilites` and select `less than` with the value of `5`. Select the Target Repository `devops/nginx`. Click `Save`
+3. Select `Critical Vulnerabilities` and select `less than` with the value of `5`. Select the Target Repository `devops/nginx`. Click `Save`
 
 ![dtr-reporbac04](../images/dtr-reporbac04.png)/
 
@@ -121,7 +121,7 @@ As a result we will be unable to access Alice Repository.
 
 ### Team Beta
 
-1. As Team Beta we want to make sure that always a new TAG is supplied. Therefor we set up the Repo with the Immutability. We will pull try to overwrite a tag in our repository:
+1. As Team Beta we want to make sure that always a new TAG is supplied. Therefor we set up the repository with the Immutability. We will pull try to overwrite a tag in our repository:
 ```
 docker login -u chuck YOURDTRURL
 

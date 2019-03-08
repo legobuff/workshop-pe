@@ -13,7 +13,7 @@ The Client Bundle can be downloaded by logging into your UCP user account.
 
 ![cb01](../images/cb01.png)/
 
-2. Select your username on the left menu and select `My Profile`
+2. Select your user name on the left menu and select `My Profile`
 
 ![cb02](../images/cb02.png)/
 

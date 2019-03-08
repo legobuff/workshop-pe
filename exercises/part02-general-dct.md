@@ -8,7 +8,7 @@ By the end of this exercise, you should be able to:
  
  
 
-## Part 1 - Pre-Requisits
+## Part 1 - Prerequisites
 
 You should have ran through the following exercises:
 
@@ -40,7 +40,7 @@ We will use an Docker Hub provided image in this example.
 
 2. Transfer the client bundle to your workstation.
 
-3. Prepare your signatures and keys to be able to sign against your DTR. Note: You will be asked for multiple passphrases for your keys.  For convenience, please use the same password for all passphrases. In a real world scenario, the keys should be different!
+3. Prepare your signatures and keys to be able to sign against your DTR. Note: You will be asked for multiple pass phrases for your keys.  For convenience, please use the same password for all pass phrases. In a real world scenario, the keys should be different!
 ```
 cd CLIENTBUNDLEDIR
 
@@ -117,7 +117,7 @@ Make sure you still have your `Alice Client bundle` ready!
 
 ## Conclusion
 
-Docker Content Trust allows you to sign images and in combination with UCP provides you a powerful security asset. With this feature it is easy to control, which containers may run within your datacenter.
+Docker Content Trust allows you to sign images and in combination with UCP provides you a powerful security asset. With this feature it is easy to control, which containers may run within your data center.
 
 Further reading:
 https://docs.docker.com/engine/security/trust/content_trust/

@@ -3,7 +3,7 @@
 By the end of this exercise, you should be able to:
 
  - Create a simple RBAC structure within UCP
- - Understand the relations between Organisations, Teams and Users
+ - Understand the relations between Organizations, Teams and Users
 
 ## Part 1 - Organizations
 
@@ -83,7 +83,7 @@ The result should reflect this:
 
 ## Part 4 - Create Collections
 
-We want our cluster to be split into three parts: `dev`, `staging`, `production`. Therefor we need to create **collections** to create a virtual possability to seperate our cluster.
+We want our cluster to be split into three parts: `dev`, `staging`, `production`. Therefor we need to create **collections** to create a virtual possibility to separate our cluster.
 
 1. Select your `Shared Resources` and `Collections`
 
@@ -124,7 +124,7 @@ As we have a simple RBAC structure now, we need to grant the Teams their respect
 2. Select `Swarm` at the top of the Grants page
 
 3. Select `Create Grant` and provide the following details:
-- Organizations -> Organizations: `developers` -> Team(Optional) -> `alpha` abd click `NEXT`
+- Organizations -> Organizations: `developers` -> Team(Optional) -> `alpha` and click `NEXT`
 - Resource Set -> `View Children` on Swarm -> `View Children` on dev -> select collection `alpha`
 - Role -> Select `Restricted Control` and `Create`
 
@@ -199,6 +199,6 @@ volumes:
 
 ## Conclusion
 
-UCP allows us with only a few steps to provide a RBAC module to apply to your environment. RBAC structures depend on initial planing. It is mandetory to know the "Who is Who" of the users of UCP.
+UCP allows us with only a few steps to provide a RBAC module to apply to your environment. RBAC structures depend on initial planing. It is mandatory to know the "Who is Who" of the users of UCP.
 
 Further reading: https://success.docker.com/article/rbac-example-overview

@@ -11,7 +11,7 @@ Make sure you have run through the following exercise first:
 
 https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md
 
-When using CI/CD pipelines, it might be mandetory to provide webhooks so certain CI/CD pipelines can be triggered. DTR provides such a feature.
+When using CI/CD pipelines, it might be mandatory to provide webhooks so certain CI/CD pipelines can be triggered. DTR provides such a feature.
 
 1. Browse to you `DTR url` and log in by using an admin user, e.g. `admin`. You will currently see the UCP login page
 

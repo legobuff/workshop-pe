@@ -18,7 +18,7 @@ The first time you browse to your `DTR url`, you might notice, that you will be 
 
 ![dtr-sso01](../images/dtr-sso01.png)/
 
-3. Switch the Option `automatically redirect users to ucp for login` off and log your user out. To log out select your `username` on the right and selecet `Logout`
+3. Switch the Option `automatically redirect users to ucp for login` off and log your user out. To log out select your `username` on the right and select `Logout`
 
 ## Part 2 - Notice the difference
 
@@ -31,7 +31,7 @@ As you may notice, the Single Sign-On Feature is still available. But now you ca
 
 ## Conclusion
 
-The SSO Feature by DTR is very convinient for login procedures. However there might be situations, where you want to change this default behavior, e.g. when non-admins are not supposed to access or even see UCP within their network.
+The SSO Feature by DTR is very convenient for login procedures. However there might be situations, where you want to change this default behavior, e.g. when non-admins are not supposed to access or even see UCP within their network.
 
 Further reading: 
 
