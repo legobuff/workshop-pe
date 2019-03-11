@@ -19,7 +19,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 - [Create a simple RBAC structure](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md)
 - [Connect UCP to an external LDAP server](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-ldap.md)
 - [Deploy a multi-service app with UCP (Swarm)](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-swarm.md)
-- [Deploy a multi-service app with UCP (Kubernetes)](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/)part02-ucp-service-kubernetes.md]
+- [Deploy a multi-service app with UCP (Kubernetes)](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-kubernetes.md)
 - [Container Management with UCP](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-container-management.md)
 - [Interlock/Layer-7 configuration](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-interlock.md)
 - [Create and Analyse an UCP Support Dump](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-support-dump.md)
