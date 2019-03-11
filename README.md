@@ -28,8 +28,8 @@ As a Partner of Docker you have been provided with extra learning material. The 
 **DTR**
 
 - [Configure to use Single Sign-On in DTR](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-sso.md)
-- [Enable and test security scanning]https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-security-scanning.md
-- [Configure DTR to use NFS]https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-nfs.md
+- [Enable and test security scanning](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-security-scanning.md)
+- [Configure DTR to use NFS](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-nfs.md)
 - [Create a repository with RBAC model](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-repository-rbac.md)
 - [Configure DTR Repositories with Webhooks](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-webhook.md)
 
