@@ -9,37 +9,39 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 #### Exercises - Part 2 
 
-**4.1 General**
+**General**
 
-- Use the Client Bundle to administrate your cluster
-- Update UCP and DTR to use self provided SSL certificates
+- [Use the Client Bundle to administrate your cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md)
+- [Update UCP and DTR to use self provided SSL certificates](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
 
-**4.1 UCP**
+**UCP**
 
-- Create a simple RBAC structure
-- Connect UCP to an external LDAP server
-- Deploy a multi-service app with UCP (Swarm)
-- Deploy a multi-service app with UCP (Kubernetes)
-- Container Management with UCP
-- Interlock/Layer-7 configuration
-- Create and Analyse an UCP Support Dump
+- [Create a simple RBAC structure](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md)
+- [Connect UCP to an external LDAP server](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-ldap.md)
+- [Deploy a multi-service app with UCP (Swarm)](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-swarm.md)
+- [Deploy a multi-service app with UCP (Kubernetes)](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/)part02-ucp-service-kubernetes.md]
+- [Container Management with UCP](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-container-management.md)
+- [Interlock/Layer-7 configuration](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-interlock.md)
+- [Create and Analyse an UCP Support Dump](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-support-dump.md)
 
 
-**4.2 DTR**
+**DTR**
 
-- Configure to use Single Sign-On in DTR
-- Enable and test security scanning
-- Configure DTR to use NFS
-- Create a repository with RBAC model
-- Configure DTR Repositories with Webhooks
+- [Configure to use Single Sign-On in DTR](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-sso.md)
+- [Enable and test security scanning]https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-security-scanning.md
+- [Configure DTR to use NFS]https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-nfs.md
+- [Create a repository with RBAC model](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-repository-rbac.md)
+- [Configure DTR Repositories with Webhooks](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-webhook.md)
 
-**4.3 DOCKER CONTENT TRUST**
+**DOCKER CONTENT TRUST**
+
+- [How to use DCT](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-dct.md)
 
 
 #### Exercises - Part 3
 
 
-- Deploying Jenkins within a Kubernetes Cluster
+- [Deploying Jenkins within a Kubernetes Cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-Jenkins.md)
 
 
 
