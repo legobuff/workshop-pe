@@ -2630,9 +2630,7 @@ Progress (1): 4.5 kB
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 197 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom
-Progress (1): 2.8/8.7 kB
-Progress (1): 5.5/8.7 kB
-Progress (1): 8.3/8.7 kB
+...
 Progress (1): 8.7 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/17/maven-shared-components-17.pom (8.7 kB at 335 kB/s)
@@ -2642,18 +2640,13 @@ Progress (1): 2.8 kB
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 122 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom
-Progress (1): 0.5/6.8 kB
-Progress (1): 3.3/6.8 kB
-Progress (1): 6.0/6.8 kB
+...
 Progress (1): 6.8 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/spice/spice-parent/17/spice-parent-17.pom (6.8 kB at 270 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom
 Progress (1): 2.2/14 kB
-Progress (1): 4.9/14 kB
-Progress (1): 7.7/14 kB
-Progress (1): 10/14 kB 
-Progress (1): 13/14 kB
+...
 Progress (1): 14 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/org/sonatype/forge/forge-parent/10/forge-parent-10.pom (14 kB at 502 kB/s)
@@ -2668,11 +2661,7 @@ Progress (1): 2.7 kB
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 104 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
 Progress (1): 2.8/19 kB
-Progress (1): 5.5/19 kB
-Progress (1): 8.3/19 kB
-Progress (1): 11/19 kB 
-Progress (1): 14/19 kB
-Progress (1): 16/19 kB
+...
 Progress (1): 19 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 kB at 665 kB/s)
@@ -2693,180 +2682,32 @@ Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plex
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
 Progress (1): 2.8/22 kB
-Progress (1): 5.5/22 kB
-Progress (1): 8.3/22 kB
-Progress (1): 11/22 kB 
-Progress (1): 14/22 kB
-Progress (1): 16/22 kB
-Progress (1): 19/22 kB
-Progress (1): 22 kB   
-Progress (2): 22 kB | 2.2/38 kB
-Progress (2): 22 kB | 5.0/38 kB
-Progress (2): 22 kB | 7.7/38 kB
-Progress (2): 22 kB | 10/38 kB 
-Progress (2): 22 kB | 13/38 kB
-Progress (2): 22 kB | 16/38 kB
-Progress (2): 22 kB | 19/38 kB
-Progress (3): 22 kB | 19/38 kB | 2.8/58 kB
-Progress (3): 22 kB | 21/38 kB | 2.8/58 kB
-Progress (3): 22 kB | 21/38 kB | 5.5/58 kB
-Progress (3): 22 kB | 24/38 kB | 5.5/58 kB
-Progress (3): 22 kB | 24/38 kB | 8.3/58 kB
-Progress (4): 22 kB | 24/38 kB | 8.3/58 kB | 2.8/60 kB
-Progress (4): 22 kB | 27/38 kB | 8.3/58 kB | 2.8/60 kB
-Progress (4): 22 kB | 27/38 kB | 8.3/58 kB | 5.5/60 kB
-Progress (4): 22 kB | 27/38 kB | 8.3/58 kB | 8.3/60 kB
-Progress (4): 22 kB | 27/38 kB | 11/58 kB | 8.3/60 kB 
-Progress (4): 22 kB | 27/38 kB | 11/58 kB | 11/60 kB 
-Progress (4): 22 kB | 27/38 kB | 14/58 kB | 11/60 kB
-Progress (4): 22 kB | 30/38 kB | 14/58 kB | 11/60 kB
-Progress (4): 22 kB | 30/38 kB | 16/58 kB | 11/60 kB
-Progress (4): 22 kB | 30/38 kB | 16/58 kB | 14/60 kB
-Progress (4): 22 kB | 30/38 kB | 19/58 kB | 14/60 kB
-Progress (4): 22 kB | 32/38 kB | 19/58 kB | 14/60 kB
-Progress (4): 22 kB | 32/38 kB | 22/58 kB | 14/60 kB
-Progress (4): 22 kB | 32/38 kB | 22/58 kB | 16/60 kB
-Progress (4): 22 kB | 32/38 kB | 25/58 kB | 16/60 kB
-Progress (4): 22 kB | 35/38 kB | 25/58 kB | 16/60 kB
-Progress (4): 22 kB | 35/38 kB | 27/58 kB | 16/60 kB
-Progress (4): 22 kB | 35/38 kB | 27/58 kB | 19/60 kB
-Progress (4): 22 kB | 35/38 kB | 30/58 kB | 19/60 kB
-Progress (4): 22 kB | 38 kB | 30/58 kB | 19/60 kB   
-Progress (4): 22 kB | 38 kB | 33/58 kB | 19/60 kB
-Progress (4): 22 kB | 38 kB | 33/58 kB | 22/60 kB
-Progress (4): 22 kB | 38 kB | 33/58 kB | 25/60 kB
-Progress (4): 22 kB | 38 kB | 33/58 kB | 27/60 kB
-Progress (4): 22 kB | 38 kB | 33/58 kB | 30/60 kB
-Progress (4): 22 kB | 38 kB | 37/58 kB | 30/60 kB
-Progress (4): 22 kB | 38 kB | 37/58 kB | 33/60 kB
-Progress (4): 22 kB | 38 kB | 41/58 kB | 33/60 kB
-Progress (4): 22 kB | 38 kB | 45/58 kB | 33/60 kB
-Progress (4): 22 kB | 38 kB | 49/58 kB | 33/60 kB
-Progress (4): 22 kB | 38 kB | 49/58 kB | 37/60 kB
-Progress (5): 22 kB | 38 kB | 49/58 kB | 37/60 kB | 2.2/184 kB
-Progress (5): 22 kB | 38 kB | 53/58 kB | 37/60 kB | 2.2/184 kB
-Progress (5): 22 kB | 38 kB | 53/58 kB | 41/60 kB | 2.2/184 kB
-Progress (5): 22 kB | 38 kB | 53/58 kB | 41/60 kB | 5.0/184 kB
-Progress (5): 22 kB | 38 kB | 57/58 kB | 41/60 kB | 5.0/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 41/60 kB | 5.0/184 kB   
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 5.0/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 7.7/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 10/184 kB 
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 13/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 16/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 19/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 21/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 24/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 27/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 30/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 32/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 36/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 40/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 45/184 kB
-Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 49/184 kB
+...
 Progress (5): 22 kB | 38 kB | 58 kB | 45/60 kB | 53/184 kB
                                                           
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 519 kB/s)
 Downloaded from central: https://repo.maven.apache.org/maven2/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar (38 kB at 695 kB/s)
-Progress (3): 58 kB | 49/60 kB | 53/184 kB
-Progress (3): 58 kB | 53/60 kB | 53/184 kB
-Progress (3): 58 kB | 57/60 kB | 53/184 kB
-Progress (3): 58 kB | 60 kB | 53/184 kB   
+...
 Progress (3): 58 kB | 60 kB | 57/184 kB
                                        
 Downloading from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
 Progress (3): 58 kB | 60 kB | 61/184 kB
-Progress (3): 58 kB | 60 kB | 65/184 kB
-Progress (3): 58 kB | 60 kB | 69/184 kB
-Progress (3): 58 kB | 60 kB | 73/184 kB
-Progress (3): 58 kB | 60 kB | 77/184 kB
-Progress (3): 58 kB | 60 kB | 81/184 kB
-Progress (3): 58 kB | 60 kB | 85/184 kB
-Progress (3): 58 kB | 60 kB | 90/184 kB
-Progress (3): 58 kB | 60 kB | 94/184 kB
+...
 Progress (3): 58 kB | 60 kB | 98/184 kB
                                        
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 1.3 MB/s)
 Progress (2): 60 kB | 102/184 kB
-Progress (2): 60 kB | 106/184 kB
-Progress (2): 60 kB | 110/184 kB
-Progress (2): 60 kB | 114/184 kB
-Progress (2): 60 kB | 118/184 kB
-Progress (2): 60 kB | 122/184 kB
-Progress (2): 60 kB | 126/184 kB
-Progress (2): 60 kB | 131/184 kB
-Progress (2): 60 kB | 135/184 kB
-Progress (2): 60 kB | 139/184 kB
-Progress (2): 60 kB | 143/184 kB
+...
 Progress (2): 60 kB | 147/184 kB
                                 
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 1.1 MB/s)
 Progress (1): 151/184 kB
-Progress (1): 155/184 kB
-Progress (1): 159/184 kB
-Progress (1): 163/184 kB
-Progress (2): 163/184 kB | 2.2/208 kB
-Progress (2): 163/184 kB | 5.0/208 kB
-Progress (2): 163/184 kB | 7.7/208 kB
-Progress (2): 163/184 kB | 10/208 kB 
-Progress (2): 163/184 kB | 13/208 kB
-Progress (2): 167/184 kB | 13/208 kB
-Progress (2): 167/184 kB | 16/208 kB
-Progress (2): 167/184 kB | 19/208 kB
-Progress (2): 167/184 kB | 21/208 kB
-Progress (2): 167/184 kB | 24/208 kB
-Progress (2): 167/184 kB | 27/208 kB
-Progress (2): 167/184 kB | 30/208 kB
-Progress (2): 167/184 kB | 32/208 kB
-Progress (2): 171/184 kB | 32/208 kB
-Progress (2): 171/184 kB | 36/208 kB
-Progress (2): 176/184 kB | 36/208 kB
-Progress (2): 176/184 kB | 40/208 kB
-Progress (2): 180/184 kB | 40/208 kB
-Progress (2): 180/184 kB | 45/208 kB
-Progress (2): 180/184 kB | 49/208 kB
-Progress (2): 184/184 kB | 49/208 kB
-Progress (2): 184 kB | 49/208 kB    
-Progress (2): 184 kB | 53/208 kB
-Progress (2): 184 kB | 57/208 kB
-Progress (2): 184 kB | 61/208 kB
-Progress (2): 184 kB | 65/208 kB
-Progress (2): 184 kB | 69/208 kB
-Progress (2): 184 kB | 73/208 kB
-Progress (2): 184 kB | 77/208 kB
-Progress (2): 184 kB | 81/208 kB
-Progress (2): 184 kB | 85/208 kB
-Progress (2): 184 kB | 90/208 kB
-Progress (2): 184 kB | 94/208 kB
-Progress (2): 184 kB | 98/208 kB
-Progress (2): 184 kB | 102/208 kB
-Progress (2): 184 kB | 106/208 kB
-Progress (2): 184 kB | 110/208 kB
-Progress (2): 184 kB | 114/208 kB
-Progress (2): 184 kB | 118/208 kB
-Progress (2): 184 kB | 122/208 kB
-Progress (2): 184 kB | 126/208 kB
-Progress (2): 184 kB | 131/208 kB
-Progress (2): 184 kB | 135/208 kB
-Progress (2): 184 kB | 139/208 kB
-Progress (2): 184 kB | 143/208 kB
-Progress (2): 184 kB | 147/208 kB
-Progress (2): 184 kB | 151/208 kB
-Progress (2): 184 kB | 155/208 kB
-Progress (2): 184 kB | 159/208 kB
-Progress (2): 184 kB | 163/208 kB
-Progress (2): 184 kB | 167/208 kB
-Progress (2): 184 kB | 171/208 kB
-Progress (2): 184 kB | 176/208 kB
+...
 Progress (2): 184 kB | 180/208 kB
                                  
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 2.1 MB/s)
 Progress (1): 184/208 kB
-Progress (1): 188/208 kB
-Progress (1): 192/208 kB
-Progress (1): 196/208 kB
-Progress (1): 200/208 kB
-Progress (1): 204/208 kB
+...
 Progress (1): 208 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commons-lang/2.1/commons-lang-2.1.jar (208 kB at 2.0 MB/s)
@@ -2877,34 +2718,13 @@ Downloaded from central: https://repo.maven.apache.org/maven2/commons-lang/commo
 [INFO] --------------------------------[ war ]---------------------------------
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom
 Progress (1): 2.8/6.5 kB
-Progress (1): 5.5/6.5 kB
+...
 Progress (1): 6.5 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.pom (6.5 kB at 231 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar
 Progress (1): 2.8/79 kB
-Progress (1): 5.5/79 kB
-Progress (1): 8.3/79 kB
-Progress (1): 11/79 kB 
-Progress (1): 14/79 kB
-Progress (1): 16/79 kB
-Progress (1): 19/79 kB
-Progress (1): 22/79 kB
-Progress (1): 25/79 kB
-Progress (1): 27/79 kB
-Progress (1): 30/79 kB
-Progress (1): 33/79 kB
-Progress (1): 37/79 kB
-Progress (1): 41/79 kB
-Progress (1): 45/79 kB
-Progress (1): 49/79 kB
-Progress (1): 53/79 kB
-Progress (1): 57/79 kB
-Progress (1): 61/79 kB
-Progress (1): 66/79 kB
-Progress (1): 70/79 kB
-Progress (1): 74/79 kB
-Progress (1): 78/79 kB
+...
 Progress (1): 79 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/2.2/maven-war-plugin-2.2.jar (79 kB at 1.9 MB/s)
@@ -2914,60 +2734,20 @@ Progress (1): 157 B
 Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom (157 B at 5.4 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.pom
 Progress (1): 2.2/5.3 kB
-Progress (1): 5.0/5.3 kB
+...
 Progress (1): 5.3 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.pom (5.3 kB at 184 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/web/jsp/2.2/jsp-2.2.pom
 Progress (1): 2.2/6.9 kB
-Progress (1): 5.0/6.9 kB
+...
 Progress (1): 6.9 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/web/jsp/2.2/jsp-2.2.pom (6.9 kB at 182 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar
 Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar
 Progress (1): 2.2/50 kB
-Progress (1): 5.0/50 kB
-Progress (1): 7.7/50 kB
-Progress (1): 10/50 kB 
-Progress (1): 13/50 kB
-Progress (1): 16/50 kB
-Progress (1): 19/50 kB
-Progress (1): 21/50 kB
-Progress (1): 24/50 kB
-Progress (1): 27/50 kB
-Progress (1): 30/50 kB
-Progress (1): 32/50 kB
-Progress (1): 36/50 kB
-Progress (1): 40/50 kB
-Progress (1): 45/50 kB
-Progress (1): 49/50 kB
-Progress (1): 50 kB   
-Progress (2): 50 kB | 4.1/105 kB
-Progress (2): 50 kB | 7.7/105 kB
-Progress (2): 50 kB | 12/105 kB 
-Progress (2): 50 kB | 16/105 kB
-Progress (2): 50 kB | 20/105 kB
-Progress (2): 50 kB | 24/105 kB
-Progress (2): 50 kB | 28/105 kB
-Progress (2): 50 kB | 32/105 kB
-Progress (2): 50 kB | 36/105 kB
-Progress (2): 50 kB | 40/105 kB
-Progress (2): 50 kB | 45/105 kB
-Progress (2): 50 kB | 49/105 kB
-Progress (2): 50 kB | 53/105 kB
-Progress (2): 50 kB | 57/105 kB
-Progress (2): 50 kB | 61/105 kB
-Progress (2): 50 kB | 65/105 kB
-Progress (2): 50 kB | 69/105 kB
-Progress (2): 50 kB | 73/105 kB
-Progress (2): 50 kB | 77/105 kB
-Progress (2): 50 kB | 81/105 kB
-Progress (2): 50 kB | 85/105 kB
-Progress (2): 50 kB | 90/105 kB
-Progress (2): 50 kB | 94/105 kB
-Progress (2): 50 kB | 98/105 kB
-Progress (2): 50 kB | 102/105 kB
+...
 Progress (2): 50 kB | 105 kB    
                             
 Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/jsp/jsp-api/2.2/jsp-api-2.2.jar (50 kB at 1.3 MB/s)
@@ -3000,14 +2780,7 @@ Progress (1): 1.7 kB
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.11/surefire-junit3-2.11.pom (1.7 kB at 57 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.11/surefire-junit3-2.11.jar
 Progress (1): 2.2/26 kB
-Progress (1): 5.0/26 kB
-Progress (1): 7.7/26 kB
-Progress (1): 10/26 kB 
-Progress (1): 13/26 kB
-Progress (1): 16/26 kB
-Progress (1): 19/26 kB
-Progress (1): 21/26 kB
-Progress (1): 24/26 kB
+...
 Progress (1): 26 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/surefire/surefire-junit3/2.11/surefire-junit3-2.11.jar (26 kB at 878 kB/s)
@@ -3024,18 +2797,13 @@ Tests run: 0, Failures: 0, Errors: 0, Skipped: 0
 [INFO] --- maven-war-plugin:2.2:war (default-war) @ webapp ---
 Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom
 Progress (1): 2.2/11 kB
-Progress (1): 5.0/11 kB
-Progress (1): 7.8/11 kB
-Progress (1): 11/11 kB 
+...
 Progress (1): 11 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.pom (11 kB at 369 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom
 Progress (1): 2.8/14 kB
-Progress (1): 5.5/14 kB
-Progress (1): 8.3/14 kB
-Progress (1): 11/14 kB 
-Progress (1): 14/14 kB
+...
 Progress (1): 14 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream-parent/1.3.1/xstream-parent-1.3.1.pom (14 kB at 518 kB/s)
@@ -3050,37 +2818,25 @@ Progress (1): 4.0 kB
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.pom (4.0 kB at 168 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom
 Progress (1): 2.2/8.4 kB
-Progress (1): 5.0/8.4 kB
-Progress (1): 7.8/8.4 kB
+...
 Progress (1): 8.4 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-shared-components/10/maven-shared-components-10.pom (8.4 kB at 351 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom
 Progress (1): 2.2/33 kB
-Progress (1): 5.0/33 kB
-Progress (1): 7.8/33 kB
-Progress (1): 11/33 kB 
-Progress (1): 13/33 kB
-Progress (1): 16/33 kB
-Progress (1): 19/33 kB
-Progress (1): 21/33 kB
-Progress (1): 24/33 kB
-Progress (1): 27/33 kB
-Progress (1): 30/33 kB
-Progress (1): 32/33 kB
+P...
 Progress (1): 33 kB   
                    
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/9/maven-parent-9.pom (33 kB at 1.1 MB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom
 Progress (1): 2.2/5.3 kB
-Progress (1): 5.0/5.3 kB
+...
 Progress (1): 5.3 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.pom (5.3 kB at 252 kB/s)
 Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom
 Progress (1): 2.2/9.8 kB
-Progress (1): 5.0/9.8 kB
-Progress (1): 7.8/9.8 kB
+...
 Progress (1): 9.8 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/1.0.12/plexus-1.0.12.pom (9.8 kB at 363 kB/s)
@@ -3093,138 +2849,17 @@ Downloading from central: https://repo.maven.apache.org/maven2/com/thoughtworks/
 Downloading from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar
 Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar
 Progress (1): 2.2/431 kB
-Progress (1): 5.0/431 kB
-Progress (1): 7.7/431 kB
-Progress (1): 10/431 kB 
-Progress (1): 13/431 kB
-Progress (1): 16/431 kB
-Progress (1): 19/431 kB
-Progress (2): 19/431 kB | 2.2/33 kB
-Progress (2): 21/431 kB | 2.2/33 kB
-Progress (2): 21/431 kB | 5.0/33 kB
-Progress (2): 24/431 kB | 5.0/33 kB
-Progress (2): 27/431 kB | 5.0/33 kB
-Progress (2): 27/431 kB | 7.7/33 kB
-Progress (2): 30/431 kB | 7.7/33 kB
-Progress (2): 30/431 kB | 10/33 kB 
-Progress (2): 32/431 kB | 10/33 kB
-Progress (2): 32/431 kB | 13/33 kB
-Progress (2): 32/431 kB | 16/33 kB
-Progress (2): 32/431 kB | 19/33 kB
-Progress (2): 36/431 kB | 19/33 kB
-Progress (2): 36/431 kB | 21/33 kB
-Progress (2): 40/431 kB | 21/33 kB
-Progress (2): 45/431 kB | 21/33 kB
-Progress (2): 45/431 kB | 24/33 kB
-Progress (2): 49/431 kB | 24/33 kB
-Progress (2): 49/431 kB | 27/33 kB
-Progress (2): 49/431 kB | 30/33 kB
-Progress (2): 49/431 kB | 32/33 kB
-Progress (2): 53/431 kB | 32/33 kB
-Progress (2): 53/431 kB | 33 kB   
-Progress (2): 57/431 kB | 33 kB
-Progress (2): 61/431 kB | 33 kB
-Progress (2): 65/431 kB | 33 kB
-Progress (2): 69/431 kB | 33 kB
-Progress (2): 73/431 kB | 33 kB
-Progress (2): 77/431 kB | 33 kB
-Progress (2): 81/431 kB | 33 kB
-Progress (2): 85/431 kB | 33 kB
-Progress (2): 90/431 kB | 33 kB
-Progress (2): 94/431 kB | 33 kB
-Progress (2): 98/431 kB | 33 kB
-Progress (2): 102/431 kB | 33 kB
-Progress (2): 106/431 kB | 33 kB
-Progress (2): 110/431 kB | 33 kB
-Progress (2): 114/431 kB | 33 kB
-Progress (2): 118/431 kB | 33 kB
-Progress (2): 122/431 kB | 33 kB
-Progress (2): 126/431 kB | 33 kB
-Progress (2): 131/431 kB | 33 kB
-Progress (2): 135/431 kB | 33 kB
-Progress (2): 139/431 kB | 33 kB
-Progress (2): 143/431 kB | 33 kB
-Progress (2): 147/431 kB | 33 kB
-Progress (2): 151/431 kB | 33 kB
-Progress (2): 155/431 kB | 33 kB
-Progress (2): 159/431 kB | 33 kB
-Progress (2): 163/431 kB | 33 kB
-Progress (2): 167/431 kB | 33 kB
-Progress (2): 171/431 kB | 33 kB
-Progress (2): 176/431 kB | 33 kB
-Progress (2): 180/431 kB | 33 kB
-Progress (2): 184/431 kB | 33 kB
-Progress (2): 188/431 kB | 33 kB
-Progress (2): 192/431 kB | 33 kB
-Progress (2): 196/431 kB | 33 kB
-Progress (2): 200/431 kB | 33 kB
-Progress (2): 204/431 kB | 33 kB
-Progress (2): 208/431 kB | 33 kB
-Progress (2): 212/431 kB | 33 kB
-Progress (2): 217/431 kB | 33 kB
-Progress (2): 221/431 kB | 33 kB
-Progress (2): 225/431 kB | 33 kB
-Progress (2): 229/431 kB | 33 kB
-Progress (2): 233/431 kB | 33 kB
-Progress (3): 233/431 kB | 33 kB | 4.1/25 kB
-Progress (3): 233/431 kB | 33 kB | 7.6/25 kB
-Progress (3): 233/431 kB | 33 kB | 12/25 kB 
-Progress (3): 233/431 kB | 33 kB | 16/25 kB
-Progress (3): 233/431 kB | 33 kB | 20/25 kB
-Progress (3): 233/431 kB | 33 kB | 24/25 kB
-Progress (3): 233/431 kB | 33 kB | 25 kB   
+...
 Progress (3): 237/431 kB | 33 kB | 25 kB
                                         
 Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/shared/maven-filtering/1.0-beta-2/maven-filtering-1.0-beta-2.jar (33 kB at 651 kB/s)
 Progress (2): 241/431 kB | 25 kB
-Progress (2): 245/431 kB | 25 kB
-Progress (2): 249/431 kB | 25 kB
-Progress (2): 253/431 kB | 25 kB
-Progress (2): 258/431 kB | 25 kB
-Progress (2): 262/431 kB | 25 kB
-Progress (2): 266/431 kB | 25 kB
-Progress (2): 270/431 kB | 25 kB
-Progress (2): 274/431 kB | 25 kB
-Progress (2): 278/431 kB | 25 kB
-Progress (2): 282/431 kB | 25 kB
-Progress (2): 286/431 kB | 25 kB
-Progress (2): 290/431 kB | 25 kB
-Progress (2): 294/431 kB | 25 kB
-Progress (2): 298/431 kB | 25 kB
-Progress (2): 303/431 kB | 25 kB
-Progress (2): 307/431 kB | 25 kB
-Progress (2): 311/431 kB | 25 kB
-Progress (2): 315/431 kB | 25 kB
-Progress (2): 319/431 kB | 25 kB
-Progress (2): 323/431 kB | 25 kB
-Progress (2): 327/431 kB | 25 kB
-Progress (2): 331/431 kB | 25 kB
-Progress (2): 335/431 kB | 25 kB
-Progress (2): 339/431 kB | 25 kB
-Progress (2): 344/431 kB | 25 kB
-Progress (2): 348/431 kB | 25 kB
-Progress (2): 352/431 kB | 25 kB
-Progress (2): 356/431 kB | 25 kB
-Progress (2): 360/431 kB | 25 kB
-Progress (2): 364/431 kB | 25 kB
+...
 Progress (2): 368/431 kB | 25 kB
                                 
 Downloaded from central: https://repo.maven.apache.org/maven2/xpp3/xpp3_min/1.1.4c/xpp3_min-1.1.4c.jar (25 kB at 342 kB/s)
 Progress (1): 372/431 kB
-Progress (1): 376/431 kB
-Progress (1): 380/431 kB
-Progress (1): 384/431 kB
-Progress (1): 389/431 kB
-Progress (1): 393/431 kB
-Progress (1): 397/431 kB
-Progress (1): 401/431 kB
-Progress (1): 405/431 kB
-Progress (1): 409/431 kB
-Progress (1): 413/431 kB
-Progress (1): 417/431 kB
-Progress (1): 421/431 kB
-Progress (1): 425/431 kB
-Progress (1): 430/431 kB
+...
 Progress (1): 431 kB    
                     
 Downloaded from central: https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar (431 kB at 4.1 MB/s)
@@ -3378,7 +3013,7 @@ stage('Docker Deploy') {
 
 3. Change the file `index.jsp` to say something different.
 
-4. Commit your Jenkinsfile and your new index.jsp to your GitHub. 
+4. Commit your `Jenkinsfile` and your new `index.jsp` to your GitHub. 
 
 5. Initiate your Jenkins Job to Build again. When the Job has been executed successfully, you should be able to see the updated content in your deployed service.
 
@@ -3386,6 +3021,6 @@ stage('Docker Deploy') {
 
 Kubernetes and Jenkins provide a powerful basis for a high scalable CI/CD platform. There are many different ways to realize a CI/CD Kubernetes based setup. In our example, Jenkins uses 2 different containers to build a maven based tomcat image. The first container will take care of the maven build, while the second container will take care of any Docker tasks. 
 
-The current setup is meant only for training purposes.
+**The current setup is meant only for training purposes!**
 
 
