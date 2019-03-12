@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: ee-dtr.sttproductions.de/sttproductions/jenkins-master-k8s:v1
+          image: YOURDTRURL/REPOSITORY/jenkins-master-k8s:v1
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
@@ -3353,6 +3353,34 @@ You should be able to run now `docker container run --rm -p 8080:8080 YOURDTRURL
 When browsing to your docker node URL `http://dockernodeurl:8080/webapp` you should be greeted by welcome message:
 
 ![part03-k8sjenkins08](../images/part03-k8sjenkins08.png)/
+
+## Part 6 - Update your Jenkins Pipeline to create a complete CI/CD pipeline
+
+We have now a pipeline which builds a JAR file, builds a Docker Tomcat image and uploads it into out DTR. Still we need to manually check our image. This can also be automated within Jenkins.
+
+1. On a host with UCP client bundle or directly on a Docker Node, create a deployment with your Tomcat with this command:
+`docker service create --name tomcat -p 8080:8080 YOURDTRURL/REPONAME/WEBAPP:JENKINSBUILDID`
+
+Your TOMCAT Server should now be reachable with the forwarded Port 8080.
+
+2. Add the following Stage to your Jenkins File:
+``` 
+stage('Docker Deploy') {
+        steps {
+            container('docker') {
+                            sh """
+                            docker service update --image YOURDTRURL/REPONAME-${env.BUILD_ID} tomcat
+                            """
+                            }
+                }
+        }
+```
+
+3. Change the file `index.jsp` to say something different.
+
+4. Commit your Jenkinsfile and your new index.jsp to your GitHub. 
+
+5. Initiate your Jenkins Job to Build again. When the Job has been executed successfully, you should be able to see the updated content in your deployed service.
 
 ## Conclusion
 
