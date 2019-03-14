@@ -37,12 +37,12 @@ You might not want to provide properly generated certificates during a test peri
 
 To receive the CA Certificate from UCP use:
 ```
-curl -k https://UCP.YOURDOMAIN.COM/ca 3 > ucp-ca.pem
+curl -k https://UCP.YOURDOMAIN.COM/ca > ucp-ca.pem
 ```
 
 To receive the CA Certificate from DTR use:
 ```
-curl -k https://DTR.YOURDOMAIN.COM/ca 3 > dtr-ca.pem
+curl -k https://DTR.YOURDOMAIN.COM/ca > dtr-ca.pem
 ```
 
 The CA installation on your local host differs according to your current OS. Please refer to your OS support manual on how to install CA certificates.
