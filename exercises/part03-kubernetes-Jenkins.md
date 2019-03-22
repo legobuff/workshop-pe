@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
         - name: jenkins
-          image: YOURDTRURL/REPOSITORY/jenkins-master-k8s:v1
+          image: ee-dtr.sttproductions.de/sttproductions/jenkins-master-k8s:v1
           env:
             - name: JAVA_OPTS
               value: -Djenkins.install.runSetupWizard=false
@@ -111,8 +111,14 @@ spec:
     - port: 8080
       targetPort: 8080
       nodePort: 35500
+      name: http-port
+    - port: 50000
+      targetPort: 50000
+      nodePort: 35501
+      name: jnlp-port
+
   selector:
-    app: jenkins
+    app: jenkinss
 ```
 
 **jenkins-k8s-serviceaccount.yml**
@@ -185,7 +191,7 @@ Next we will configure the Jenkins Kubernetes Plugin, which will integrate in ou
 
 - Disable https certificate check: Enabled
 - Kubernetes Namespace: jenkins-k8s
-- Jenkins URL: http://JENKINS-PODIP:8080 **NOTE:**To receive the Jenkins URL, you will need the kubernetes provided IP. You can find the IP by running: `kubectl -n jenkins-k8s describe pod JENKINSPODNAME* 
+- Jenkins URL: http://jenkins.jenkins-k8s.svc:8080 **NOTE:**Instead of the service DNS, which is highly recommended, you can also supply the Jenkins-Master POD-IP. The IP can be found via: `kubectl -n jenkins-k8s describe pod JENKINSPODNAME* 
 
 ![part03-k8sjenkins03](../images/part03-k8sjenkins03.png)/
 
@@ -203,7 +209,7 @@ You should be able to connect to you Cluster by pressing `Test Connection`
 Click `Add Container` and provide the following information:
 
 - Name: jenkins-slave
-- Docker image: jenkinsci/jnlp-slave:3.26-1
+- Docker image: jenkinsci/jnlp-slave:3.26-1 **Note:** If the Slave *jnlp-slave:3.26-1* is not working for you, please replase it with`jenkinsci/jnlp-slave:alpine`
 - *Leave the rest at their default value* 
 
 ![part03-k8sjenkins05](../images/part03-k8sjenkins05.png)/
