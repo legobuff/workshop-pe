@@ -118,7 +118,7 @@ spec:
       name: jnlp-port
 
   selector:
-    app: jenkinss
+    app: jenkins
 ```
 
 **jenkins-k8s-serviceaccount.yml**
