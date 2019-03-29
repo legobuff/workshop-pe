@@ -4,6 +4,19 @@ By the end of this exercise, you should be able to:
 
  - Set up an external LDAP connection to synchronize LDAP/AD users
 
+ **If you have no running LDAP server, you can consider this exercise as optional**
+
+ **Optional:** To get a simple docker based OpenLDAP server running, use:
+
+ ```
+docker container run --env LDAP_ORGANISATION="My Company" --env LDAP_DOMAIN="my-company.com" \
+--env LDAP_ADMIN_PASSWORD="Password01" \
+-p 389:389 -p 636:636 --name my-openldap-container \
+--detach osixia/openldap:1.2.4
+```
+You can find a guide here to start an OpenLdap server here: https://github.com/osixia/docker-openldap
+The tool *LDAP Admin* can be used to remotly configure additional users: http://www.ldapadmin.org/
+
 
 ## Part 1 - Enable LDAP
 
