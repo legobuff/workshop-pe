@@ -44,10 +44,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 #### Exercises - Part 3
 
-
 - [Deploying Jenkins within a Kubernetes Cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-Jenkins.md)
-
-
 
 
 All content &copy; 2019 Docker, Inc.
