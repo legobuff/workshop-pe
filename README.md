@@ -13,6 +13,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 - [Use the Client Bundle to administrate your cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md)
 - [Update UCP and DTR to use self provided SSL certificates](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
+- [Docker EE API Introduction](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-api.md)
 
 **UCP**
 
@@ -23,6 +24,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 - [Container Management with UCP](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-container-management.md)
 - [Interlock/Layer-7 configuration](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-interlock.md)
 - [Create and Analyse an UCP Support Dump](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-support-dump.md)
+- [Join UCP worker node](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-join_worker_nodes.md)
 
 
 **DTR**
