@@ -20,24 +20,24 @@ Before you begin this exercise you should:
 
 Let's translate a couple of Kubernetes terms into the Docker lingo:
 
-# Namespace
+### Namespace
 - Think of a namespace as of a playground for all your K8s objects, such as pods, services, etc. 
 - You can split your cluster into multiple namespaces.
 - You can even add management rights to each namespace.
 
-# Pods
+### Pods
 - K8s speaks of PODs. PODs can be one or many containers. Important to know is, that pods can communicate via `127.0.0.1 ` with each other. E.g. a Webserver running on port 80 can contact a MySQL DB on port 3306.
 - You can still manage Docker Containers of a POD with the Docker CLI, while this is not recommended. You can use kubectl instead. Have a look here for further translation help: https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/
 
-# Persistant Volume (PV) & Persistant Volume Claim (PVC)
+### Persistant Volume (PV) & Persistant Volume Claim (PVC)
 - K8s uses PVs and PVC in combination to provide volumes to pods. You could think of PVs as the defined storage area while PVC will be the mount for the pod.  
 - Usually you define a PV first (which can be any kind of storage, NFS, Cloud, etc) and then "mount" this storage with a PVC.
 
-# Services
+### Services
 - Services in K8s are used to make your POD available to other services in and outside of your K8s cluster. Services can be Ingress, NodePorts, ClusterIP and other.
 - We will take a look into services in this exercise, you can read all details in full here: https://kubernetes.io/docs/concepts/services-networking/service/
 
-# Ingress
+### Ingress
 - Ingress is one kind of a service. This service is usually provided by a ingress controller such as NGINX or Traeffik. 
 - Other third party INGRESS controller, even hardware based ones such as f5, Citrix NetScaler may be used as well.
 
