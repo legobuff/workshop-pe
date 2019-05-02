@@ -12,6 +12,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 **General**
 
 - [Configure Docker to use the recommended OS storage/graph driver](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-recommended_OS_storage_or_graph_driver.md)
+- [Manage untrusted Registries in the Docker Engine](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-untrusted_registry.md)
 - [Use the Client Bundle to administrate your cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md)
 - [Update UCP and DTR to use self provided SSL certificates](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
 - [Docker EE API Introduction](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-api.md)
