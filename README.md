@@ -45,7 +45,8 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 #### Exercises - Part 3
 
+- [Kubernetes Basics](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-basics.md)
 - [Deploying Jenkins within a Kubernetes Cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-Jenkins.md)
-
+- [Docker Manifest Troubleshooting](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-docker-manifest-troubleshooting.md)
 
 All content &copy; 2019 Docker, Inc.
