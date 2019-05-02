@@ -223,7 +223,7 @@ spec:
 
 ## Conclusion
 
-Kubernetes provides a very different approach on orchestration management, while the goal stays the same: Automation and simple management of a highly flexible environment. This course scratches only the surface, but shows off a simple app with K8s. 
+Make sure you will use all available tools suche as `Visual Studio Code` or others to find errors in YAML files to save you valuable time.
 
 **Further reading:**
 
