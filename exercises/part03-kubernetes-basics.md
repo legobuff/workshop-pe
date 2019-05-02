@@ -293,6 +293,7 @@ Make yourself familier with the objects. All objects are quiet common in K8s env
 Kubernetes provides a very different approach on orchestration management, while the goal stays the same: Automation and simple management of a highly flexible environment. This course scratches only the surface, but shows off a simple app with K8s. 
 
 **Further reading:**
+
 https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/
 https://kubernetes.io/docs/concepts/workloads/controllers/deployment/
 https://kubernetes.io/docs/concepts/services-networking/service/
