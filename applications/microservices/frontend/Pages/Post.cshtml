@@ -1,0 +1,22 @@
+﻿@page
+@model PostModel
+@{
+    ViewData["Title"] = "New Post";
+}
+
+<h1>New Post</h1>
+
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Post.Title"></label>
+            <input asp-for="Post.Title" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label asp-for="Post.Content" ></label>
+            <textarea rows = "10" cols = "60" asp-for="Post.Content" class="form-control">
+            </textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Save</button>
+    </form>
+</div>

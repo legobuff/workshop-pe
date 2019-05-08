@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:80"
+    #deploy:
+    #  mode: replicated
+    #  replicas: 2
+  middleware:
+    build: ./middleware
+    #deploy:
+    #  mode: replicated
+    #  replicas: 3
+  backend:
+    build: ./backend

@@ -37,6 +37,9 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 - [How to use DCT](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-dct.md)
 
+**Application Refactoring**
+
+- Migrate a Monolith application into a set of Microservices
 
 #### Exercises - Part 3
 

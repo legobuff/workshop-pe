@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div style="float: right;  width: 20em;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding: 1em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 50em;">
+    @foreach (var w in Model.TopWords)
+    {
+        <span style="font-size: @((1f + w.Value*2f).ToString(System.Globalization.CultureInfo.GetCultureInfo("en-US")))em;">@Html.DisplayFor(m=>w.Key)</span>
+    }
+</div>
+
+<form method="post">
+    @foreach (var p in Model.Posts)
+    {
+        <h2>@Html.DisplayFor(m=>p.Title)</h2>
+        <p>
+@Html.DisplayFor(m=>p.Content)
+        </p>
+        <p>
+            <button asp-page-handler="Delete" asp-route-id="@p.PostId" class="btn btn-xs btn-danger">Delete</button>
+        </p>
+    }
+</form>
