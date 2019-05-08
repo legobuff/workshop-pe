@@ -11,8 +11,12 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 **General**
 
+- [Configure Docker to use the recommended OS storage/graph driver](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-recommended_OS_storage_or_graph_driver.md)
+- [Manage untrusted Registries in the Docker Engine](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-untrusted_registry.md)
 - [Use the Client Bundle to administrate your cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md)
 - [Update UCP and DTR to use self provided SSL certificates](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
+- [Docker EE API Introduction](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-api.md)
+
 
 **UCP**
 
@@ -23,6 +27,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 - [Container Management with UCP](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-container-management.md)
 - [Interlock/Layer-7 configuration](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-service-interlock.md)
 - [Create and Analyse an UCP Support Dump](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-support-dump.md)
+- [Join UCP worker node](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-join_worker_nodes.md)
 
 
 **DTR**
@@ -43,10 +48,8 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 #### Exercises - Part 3
 
-
+- [Kubernetes Basics](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-basics.md)
 - [Deploying Jenkins within a Kubernetes Cluster](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-kubernetes-Jenkins.md)
-
-
-
+- [Docker Manifest Troubleshooting](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part03-docker-manifest-troubleshooting.md)
 
 All content &copy; 2019 Docker, Inc.
