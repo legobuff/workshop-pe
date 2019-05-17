@@ -2,48 +2,54 @@
 
 By the end of this exercise, you should be able to:
 
- - Receive a basic translation from Docker to Kubernetes Orchestration
- - Get to know Pods, Services, Persistent Storage, NodePorts, Ingress
- - Deploy your first Kubernetes micro service application
+ - Implement a basic translation from Docker to Kubernetes Orchestration
+ - Get to know Pods, Services, Persistent Storage, NodePorts and Ingress
+ - Deploy your first Kubernetes microservice application
 
 
 ## Introduction
 
-This exercise will provide you with a quick introduction into a Kubernetes service, including some extras. You will be able to access a service via DNS and save database data. The app we are going to deploy will be a simple wordpress with mysql attached to it. Wordpress and Mysql will run in their own pods.
+This exercise will provide you with a quick introduction to Kubernetes services, including some extras. You will be able to access a service via DNS and save database data. The app we are going to deploy will be a simple wordpress instance with a mysql database attached to it. Wordpress and mysql will run in their own pods.
 
 Before you begin this exercise you should:
-- Have an UCP/DTR installation in place
+- Have a UCP/DTR installation in place
 - Know how to use and where to find a UCP Client Bundle
 
 
 ## Part 1 - Kubernetes for Docker users
 
-Let's translate a couple of Kubernetes terms into the Docker lingo:
+Let's translate a couple of Kubernetes terms into the Docker language:
+
+### Pods
+- Kubernetes schedules pods as its fundamental unit of work. Pods can consist of one or many containers. One important to know about pods is that containers within the same pod can communicate via `127.0.0.1 ` with each other. For example, a webserver can contact a MySQL DB listening on port 3306 at 127.0.0.1:3306 if they are both containers running in the same pod.
+- `kubectl` is the preferred tool for managing pods and the containers they contain from the command line. It's also possible to manipulate the containers in a pod with the Docker CLI, though this is usually best avoided; `kubectl` should provide complete and consistent functionality for managing your pods.
+- Have a look here for further translation help: https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/
+
+### Deployments
+- Deployments schedule and manage groups of identically configured pods across your Kubernetes cluster. In addition to allowing you to declare all these pods simultaneously, Deployments ensure these pods get rescheduled if any of them exit, and provide facilities for performing controlled upgrades and reconfigurations to your pods.
+- Deployments are actually only one example of Kuberentes *controllers*, which are objects proactively maintained in a consistent, desired state by the Kube master's controller manager.
+
+### Services
+- Services in Kubernetes are used to make your pod available to other services in and outside of your Kubernetes cluster. Services can be Ingress, NodePort, and ClusterIP among others.
+- We will take a look into services in this exercise; you can read all details in full here: https://kubernetes.io/docs/concepts/services-networking/service/
+
+### Ingress
+- An Ingress is a networking abstraction for routing traffic into your cluster from an external network. Ingresses and their behavior are managed by IngressController objects such as NGINX or Traefik. 
+- Other third party ingress controllers, including hardware based ones such as f5, Citrix NetScaler may be used as well.
+
+### Persistant Volume (PV) & Persistant Volume Claim (PVC)
+- Kubernetes uses PVs and PVC in combination to provide volumes to pods. You could think of PVs as the defined storage area while PVC will be the mount for the pod.  
+- Usually you define a PV first (which can be any kind of storage, NFS, Cloud, etc) and then "mount" this storage with a PVC.
 
 ### Namespace
-- Think of a namespace as of a playground for all your K8s objects, such as pods, services, etc. 
+- Think of a namespace as of a playground for all your kubernetes objects, such as pods, services, etc. 
 - You can split your cluster into multiple namespaces.
 - You can even add management rights to each namespace.
 
-### Pods
-- K8s speaks of PODs. PODs can be one or many containers. Important to know is, that pods can communicate via `127.0.0.1 ` with each other. E.g. a Webserver running on port 80 can contact a MySQL DB on port 3306.
-- You can still manage Docker Containers of a POD with the Docker CLI, while this is not recommended. You can use kubectl instead. Have a look here for further translation help: https://kubernetes.io/docs/reference/kubectl/docker-cli-to-kubectl/
 
-### Persistant Volume (PV) & Persistant Volume Claim (PVC)
-- K8s uses PVs and PVC in combination to provide volumes to pods. You could think of PVs as the defined storage area while PVC will be the mount for the pod.  
-- Usually you define a PV first (which can be any kind of storage, NFS, Cloud, etc) and then "mount" this storage with a PVC.
+## Part 2 - Preparing Kubernetes yaml
 
-### Services
-- Services in K8s are used to make your POD available to other services in and outside of your K8s cluster. Services can be Ingress, NodePorts, ClusterIP and other.
-- We will take a look into services in this exercise, you can read all details in full here: https://kubernetes.io/docs/concepts/services-networking/service/
-
-### Ingress
-- Ingress is one kind of a service. This service is usually provided by a ingress controller such as NGINX or Traeffik. 
-- Other third party INGRESS controller, even hardware based ones such as f5, Citrix NetScaler may be used as well.
-
-## Part 2 - Preparing the YAML files
-
-K8s uses YAMLs to roll out applications such as Docker Swarm. The content of the files differ though. Let's have a look into our YAML
+Kubernetes uses yaml manifests to describe all objects it orchestrates, similar to stack files in Docker Swarm. The content of the files differ though. Let's have a look into our yaml:
 
 ```
 apiVersion: v1
@@ -223,21 +229,21 @@ spec:
           claimName: wp-pv-claim
 ```
 
-This YAML will create a `Deployment`, this deployment will create 2 `PODs`, one for wordpress and one for mysql. Additionally it will create `PV` and `PVC`. It will also provide access to wordpress via the DNS `wordpress.localhost` over an Traeffik ingress controller.
+This yaml will create a Deployment, which will create two pods, one for wordpress and one for mysql. Additionally it will create PV and PVC. It will also provide access to wordpress via the DNS name wordpress.localhost over a Traefik ingressController.
 
 ## Part 3 - Rolling out an Ingress Controller and your service.
 
-1. In your UCP installation, set up a TRAEFFIK ingress controller following these instructions:
+1. In your UCP installation, set up a Traefik ingressController following these instructions:
 https://success.docker.com/article/how-to-configure-traefik-as-a-layer-7-ingress-controller-for-kubernetes
 
 By the end you should have:
 - One namespace named `ingress-traefik`
 - One up and running `traeffik-ingress-controller` pod
-- One `NodePort` listening on 35080 and one random NodePort. We will use the Port 35080 to access our service
-- On the random port you can check your traeffik service. It should look like this:
-![k8sbasic01](../images/k8sbasic01.png)/
+- One nodePort listening on 35080 and one random nodePort. We will use the port 35080 to access our service
+- On the random port you can check your Traefik service. It should look like this:
+![Kubernetesbasic01](../images/Kubernetesbasic01.png)/
 
-2. Switch to a consol with kubectl and your client bunlde in place and create a new namespace named `wordpress` with this command:
+2. Switch to a console with kubectl and your client bundle in place and create a new namespace named `wordpress` with this command:
 ```
 kubectl create namespace wordpress
 ```
@@ -251,21 +257,21 @@ kube-public       Active    141d
 kube-system       Active    141d
 wordpress         Active    28s
 ```
-3. Log into UCP with your admin account. Go to Kubernetes and select Namespace. In the Namespace overview, make sure to select wordpress as you context:
-![k8sbasic02](../images/k8sbasic02.png)/
+3. Log into UCP with your admin account. Navigate to Kubernetes and select Namespace. In the Namespace overview, make sure to select wordpress as your context:
+![Kubernetesbasic02](../images/Kubernetesbasic02.png)/
 
-4. Now select **Create**, copy the YAML file of this GIT, select as namespace `wordpress`and paste the YAML file into the black box, click create:
-![k8sbasic03](../images/k8sbasic03.png)/
+4. Now select **Create**, copy the yaml file above, select as namespace `wordpress`, paste the yaml file into the black box, and click create:
+![Kubernetesbasic03](../images/Kubernetesbasic03.png)/
 
 The creation of all pods and service will take a while, depending on your internet speed and environment setup.
 
-5. When done correctly, you should see your service up in your TRAEFFIK Management:
-![k8sbasic04](../images/k8sbasic04.png)/
+5. When done correctly, you should see your service up in your Traefik Management:
+![Kubernetesbasic04](../images/Kubernetesbasic04.png)/
 
-6. To access your wordpress page, you can either use a real DNS entry of your environment, or in this example, simply add the an IP adress of your UCP worker to your /etc/hosts file. e.g.: `10.10.10.10 wordpress.localhost`
-![k8sbasic05](../images/k8sbasic05.png)/
+6. To access your wordpress page, you can either use a real DNS entry of your environment, or in this example, simply add the IP adress of one of your UCP workers to your /etc/hosts file. e.g.: `10.10.10.10 wordpress.localhost`
+![Kubernetesbasic05](../images/Kubernetesbasic05.png)/
 
-7. You can now check out all the items you have created with kubectl or with UCP's WebUI:
+7. You can now check out all the items you have created with kubectl or with UCP's web frontend:
 ```
 [admin-str@ee-client01 wordsmith-demo]$ kubectl get all --namespace=wordpress
 NAME                     AGE
@@ -285,12 +291,12 @@ svc/wordpress         ClusterIP   10.96.7.229   <none>        8081/TCP   5m
 svc/wordpress-mysql   ClusterIP   None          <none>        3306/TCP   24m
 ```
 
-Make yourself familier with the objects. All objects are quiet common in K8s environments. Please contact your Docker instructure for further help or explanation for this exercise, if necessary.
+Make yourself familiar with the objects. All objects are quiet common in Kubernetes environments. Please contact your Docker instructor for further help or explanation for this exercise, if necessary.
 
 
 ## Conclusion
 
-Kubernetes provides a very different approach on orchestration management, while the goal stays the same: Automation and simple management of a highly flexible environment. This course scratches only the surface, but shows off a simple app with K8s. 
+Kubernetes provides a very different approach on orchestration management, while the goal stays the same: Automation and simple management of a highly flexible environment. This course scratches only the surface, but shows off a simple app with Kubernetes. 
 
 **Further reading:**
 
