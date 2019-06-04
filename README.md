@@ -44,7 +44,7 @@ As a Partner of Docker you have been provided with extra learning material. The 
 
 **Application Refactoring**
 
-- Migrate a Monolith application into a set of Microservices
+- [Migrate a Monolith application into a set of Microservices](https://github.com/BillMills/workshop-pe/blob/master/exercises/part02-app-migrate-to-microservices.md)
 
 #### Exercises - Part 3
 
