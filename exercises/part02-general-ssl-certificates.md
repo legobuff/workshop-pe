@@ -67,12 +67,12 @@ docker container run --rm \
 
 You can provide DTR with the SSL certificates during the installation. To do so you can run:
 ```
-docker container run -it --rm docker/dtr:$DTR_VERIONS install --dtr-ca "$(cat ca.pem)" --dtr-cert "$(cat cert.pem)" --dtr-key "$(cat private.key)" --dtr-external-url $LB_URL --ucp-url $UCP_URL --ucp-username $UCP_USERNAME --ucp-password $UCP_PASSWORD --ucp-node $NODEIP --ucp-insecure-tls
+docker container run -it --rm docker/dtr:$DTR_VERSIONS install --dtr-ca "$(cat ca.pem)" --dtr-cert "$(cat cert.pem)" --dtr-key "$(cat key.pem)" --dtr-external-url $LB_URL --ucp-url $UCP_URL --ucp-username $UCP_USERNAME --ucp-password $UCP_PASSWORD --ucp-node $NODEIP --ucp-insecure-tls
 ```
 
 You can also reconfigure the certificate after the installation withour Web UI access:
 ```
-docker container run -it docker/dtr:$DTR_VERIONS reconfigure --dtr-ca "$(cat ca.pem)" --dtr-key "$(cat key.pem)" --dtr-cert "$(cat cert.pem)" --ucp-insecure-tls
+docker container run -it docker/dtr:$DTR_VERSIONS reconfigure --dtr-ca "$(cat ca.pem)" --dtr-key "$(cat key.pem)" --dtr-cert "$(cat cert.pem)" --ucp-insecure-tls
 ```
 
 ## Conclusion
